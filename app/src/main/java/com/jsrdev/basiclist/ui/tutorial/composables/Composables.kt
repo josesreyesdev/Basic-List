@@ -42,7 +42,7 @@ fun MessageCard(msg: Message) {
 
     Row(modifier = Modifier.padding(all = 8.dp)) {
         Image(
-            painter = painterResource(id = R.drawable.bad_bunny),
+            painter = painterResource(id = R.drawable.ic_account),
             contentDescription = "Contact profile picture",
             modifier = Modifier
                 .size(40.dp)
